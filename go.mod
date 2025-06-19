@@ -1,5 +1,7 @@
 module argc.dev/go-exp
 
-go 1.18
+go 1.23.0
 
-require golang.org/x/exp v0.0.0-20220613132600-b0d781184e0d
+toolchain go1.24.1
+
+require golang.org/x/exp v0.0.0-20250606033433-dcc06ee1d476
